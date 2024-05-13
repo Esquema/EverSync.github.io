@@ -3,3 +3,5 @@
 Soy un estudiante con pasión por el desarrollo de software y la tecnología.
 
 ¡Gracias por visitar!
+
+SIN FINES DE LUCRO
