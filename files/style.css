@@ -54,7 +54,7 @@ body {
 }
 
 .navbar a:hover {
-    color: #0ef;
+    color: #a11607;
     text-decoration: underline;
 }
 
@@ -106,7 +106,7 @@ body {
 }
 
 .home-content h4 span {
-    color: #0ef;
+    color: #a11607;
     font-size: 32px;
     font-weight: 700;
 }
@@ -123,10 +123,10 @@ body {
     width: 40px;
     height: 40px;
     background: transparent;
-    border: 2px solid #0ef;
+    border: 2px solid #a11607;
     border-radius: 50%;
     font-size: 20px;
-    color: #0ef;
+    color: #a11607;
     text-decoration: none;
     margin: 30px 15px 30px 0;
     opacity: 0;
@@ -135,15 +135,15 @@ body {
 }
 
 .home-sci a:hover {
-    background: #0ef;
+    background: #a11607;
     color: #000;
-    box-shadow: 0 0 20px #0ef;
+    box-shadow: 0 0 20px #a11607;
 }
 
 .btn-box {
     display: inline-block;
     padding: 12px 28px;
-    background: #0ef;
+    background: #a11607;
     border-radius: 40px;
     font-size: 15px;
     text-align: center;
@@ -157,7 +157,7 @@ body {
 }
 
 .btn-box:hover {
-    box-shadow: 0 0 5px cyan, 0 0 25px cyan, 0 0 50pc cyan, 0 0 100px cyan, 0 0 200px cyan;
+    box-shadow: 0 0 5px #a11607, 0 0 25px #a11607, 0 0 50pc #a11607, 0 0 100px #a11607, 0 0 200px #a11607;
 }
 
 .img {
@@ -216,7 +216,7 @@ body {
     max-height: 492px;
     border-radius: 90px;
     /*box-shadow: 0 0 5pc cyan, 0 0 5px cyan, 0 0 10px cyan;*/
-    border: #0ef 5px solid;
+    border: #a11607 5px solid;
 }
 
 .about-text {
@@ -229,7 +229,7 @@ body {
 }
 
 .about-text h2 span {
-    color: #0ef;
+    color: #a11607;
 }
 
 .about-text p {
@@ -245,7 +245,7 @@ body {
 .abtbtn-box {
     display: inline-block;
     padding: 12px 28px;
-    background: #0ef;
+    background: #a11607;
     border-radius: 40px;
     font-size: 15px;
     text-align: center;
@@ -256,7 +256,7 @@ body {
 }
 
 .abtbtn-box:hover {
-    box-shadow: 0 0 5px cyan, 0 0 25px cyan, 0 0 50pc cyan, 0 0 100px cyan, 0 0 200px cyan;
+    box-shadow: 0 0 5px #a11607, 0 0 25px #a11607, 0 0 50pc #a11607, 0 0 100px #a11607, 0 0 200px #a11607;
 }
 
 
@@ -273,13 +273,13 @@ body {
 }
 
 .subtitle span {
-    color: #0ef;
+    color: #a11607;
 }
 
 .sec {
     display: flex;
-    flex-wrap: wrap;
-    padding-bottom: 0px;
+    justify-content: space-between;
+    gap: 20px; /* Espacio entre los contenedores */
 }
 
 .container1 {
@@ -287,12 +287,16 @@ body {
     max-height: 500px;
     padding: 10px;
     margin-left: 100px;
+    max-width: 50%;
+    margin-right: 20px;
 }
 .container2 {
     width: 600px;
     max-height: 500px;
     padding: 10px;
     margin-left: 100px;
+    max-width: 50%;
+    margin-left: 20px;
 }
 
 .heading1 {
@@ -344,7 +348,7 @@ body {
 
 .Technical-bars .bar .progress-line span {
     height: 100%;
-    background-color: #0ef;
+    background-color: #a11607;
     position: absolute;
     border-radius: 10px;
     animation: animate 1s 1s cubic-bezier(1, 0, 0.5, 1) forwards;
@@ -456,7 +460,7 @@ body {
 
 .path {
     stroke-width: 10;
-    stroke: #0ef;
+    stroke: #a11607;
     fill: transparent;
     stroke-dasharray: 502;
     stroke-dashoffset: 502;
@@ -523,7 +527,7 @@ body {
 }
 
 .main-text h2 span {
-    color: #0ef;
+    color: #a11607;
 }
 
 .serv-container {
@@ -557,7 +561,7 @@ body {
     max-height: 300px;
     height: 0;
     opacity: 0;
-    background: linear-gradient(rgba(255, 255, 255, 0.5), #0ef);
+    background: linear-gradient(rgba(255, 255, 255, 0.5), #a11607);
     position: absolute;
     border-radius: 8px;
     left: 0;
@@ -588,7 +592,7 @@ body {
 }
 
 .layer i {
-    color: #0ef;
+    color: #a11607;
     margin-top: 20px;
     font-size: 20px;
     background: #000;
@@ -623,7 +627,7 @@ body {
 }
 
 .sub-title span {
-    color: #0ef;
+    color: #a11607;
 }
 
 .prj-list {
@@ -642,7 +646,7 @@ body {
     border-radius: 20px;
     transition: background 0.5s, transform 0.5s;
     /*box-shadow: 1px 1px 20px #012290f7, 1px 1px 40px #0053b8f7;*/
-    border: #0ef 5px solid;
+    border: #a11607 5px solid;
 }
 
 .container {
@@ -672,7 +676,7 @@ body {
 .read {
     display: inline-block;
     padding: 12px 20px;
-    background: #0ef;
+    background: #a11607;
     border-radius: 40px;
     font-size: 16px;
     color: #081b29;
@@ -685,7 +689,7 @@ body {
 }
 
 .read:hover {
-    box-shadow: 0 0 5px cyan, 0 0 25px cyan, 0 0 50pc cyan, 0 0 100px cyan, 0 0 200px cyan;
+    box-shadow: 0 0 5px #a11607, 0 0 25px #a11607, 0 0 50pc #a11607, 0 0 100px #a11607, 0 0 200px #a11607;
 }
 
 .prj-list div:hover {
@@ -718,7 +722,7 @@ body {
 }
 
 .contact-text h2 span {
-    color: #0ef;
+    color: #a11607;
 }
 
 .contact-text h4 {
@@ -728,12 +732,6 @@ body {
     font-weight: 600;
 }
 
-/*.contact-text p{
-    color: rgb(177, 177, 177);
-    font-size: 20px;
-    line-height: 30px;
-    margin-bottom: 2rem;
-}*/
 .contact-list {
     margin-bottom: 3rem;
 }
@@ -747,7 +745,7 @@ body {
 
 .contact-list i {
     display: inline-block;
-    color: #0ef;
+    color: #a11607;
     font-size: 20px;
     font-weight: 600;
     transition: all .40s ease;
@@ -762,19 +760,19 @@ body {
     width: 40px;
     height: 40px;
     background: transparent;
-    border: 2px solid #0ef;
+    border: 2px solid #a11607;
     border-radius: 50%;
     font-size: 20px;
-    color: #0ef;
+    color: #a11607;
     text-decoration: none;
     margin: 0px 15px 0px 0;
     opacity: 1;
 }
 
 .contact-icons i:hover {
-    background: #0ef;
+    background: #a11607;
     color: #000;
-    box-shadow: 0 0 20px #0ef;
+    box-shadow: 0 0 20px #a11607;
 }
 
 .last-text p{
@@ -802,15 +800,15 @@ body {
 
 .top i{
     color: black;
-    background: #0ef;
+    background: #a11607;
     font-size: 20px;
     padding: 10px;
     border-radius: 0.5rem;
 }
 
 .top i:hover {
-    box-shadow: 0 0 5px cyan,
-    0 0 25px cyan, 0 0 50px cyan,0 0 200px cyan;
+    box-shadow: 0 0 5px #a11607,
+    0 0 25px #a11607, 0 0 50px #a11607,0 0 200px #a11607;
 }
 
 
@@ -999,7 +997,7 @@ body {
         margin-left: 0;
     }
     .btn-box:hover {
-        box-shadow: 0 0 5px cyan, 0 0 10px cyan, 0 0 15pc cyan, 0 0 20px cyan, 0 0 25px cyan;
+        box-shadow: 0 0 5px #a11607, 0 0 10px #a11607, 0 0 15pc #a11607, 0 0 20px #a11607, 0 0 25px #a11607;
     }
     /*about*/
     .about{
@@ -1019,7 +1017,7 @@ body {
         text-align: left;
     }
     .abtbtn-box:hover {
-        box-shadow: 0 0 5px cyan, 0 0 10px cyan, 0 0 15pc cyan, 0 0 20px cyan, 0 0 25px cyan;
+        box-shadow: 0 0 5px #a11607, 0 0 10px #a11607, 0 0 15pc #a11607, 0 0 20px #a11607, 0 0 25px #a11607;
     }
 
     /*skills*/
@@ -1154,7 +1152,7 @@ body {
         font-weight: 200;
     }
     .btn-box:hover {
-        box-shadow: 0 0 5px cyan, 0 0 10px cyan, 0 0 15pc cyan, 0 0 20px cyan, 0 0 25px cyan;
+        box-shadow: 0 0 5px #a11607, 0 0 10px #a11607, 0 0 15pc #a11607, 0 0 20px #a11607, 0 0 25px #a11607;
     }
     .img{
         max-width: 300px;
@@ -1185,7 +1183,7 @@ body {
         text-align: left;
     }
     .abtbtn-box:hover {
-        box-shadow: 0 0 5px cyan, 0 0 10px cyan, 0 0 15pc cyan, 0 0 20px cyan, 0 0 25px cyan;
+        box-shadow: 0 0 5px #a11607, 0 0 10px #a11607, 0 0 15pc #a11607, 0 0 20px #a11607, 0 0 25px #a11607;
     }
 
     /*skills*/
@@ -1268,3 +1266,64 @@ body {
         color: #000;
     }
 }
+
+
+/* Estilos para la sección de contacto */
+.contacts {
+    padding: 50px;
+    text-align: center;
+    display: flex; /* Usar flexbox para alinear elementos horizontalmente */
+    justify-content: space-around; /* Distribuir los elementos horizontalmente */
+    align-items: center; /* Centrar verticalmente los elementos */
+    flex-wrap: wrap; /* Permitir que los elementos se envuelvan en varias líneas si es necesario */
+}
+
+.contact-text {
+    flex: 1; /* Ocupar el espacio disponible */
+    margin-bottom: 30px;
+}
+
+.contact-form {
+    flex: 1; /* Ocupar el espacio disponible */
+    margin-top: 30px;
+    max-width: 400px; /* Limitar el ancho máximo del formulario */
+    box-sizing: border-box; /* Incluir padding y border dentro del ancho especificado */
+}
+
+/* Estilos para el formulario de contacto */
+.contact-form form {
+    display: flex; /* Mostrar elementos del formulario en línea */
+    flex-direction: column; /* Alinear los elementos en una columna */
+}
+
+.contact-form label {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.contact-form input[type="text"],
+.contact-form input[type="email"],
+.contact-form textarea {
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.contact-form button {
+    background-color: #a11607;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.contact-form button:hover {
+    background-color: #a11607;
+    box-shadow: 0 0 5px #a11607,
+    0 0 25px #a11607, 0 0 50px #a11607,0 0 200px #a11607;
+}
+
