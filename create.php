@@ -2,7 +2,7 @@
 //header("Access-Control-Allow-Origin: https://esquema.github.io");
 //header("Access-Control-Allow-Methods: POST");
 //header("Access-Control-Allow-Headers: Content-Type");
-
+//
 // Verificar si se está recibiendo una solicitud POST
 if ($_SERVER["REQUEST_METHOD"] ?? '' == "POST") {
     // Obtener datos JSON del cuerpo de la solicitud
